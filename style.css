@@ -25,29 +25,18 @@
 }
 
 body {
-  /*background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-
-  background: color image repeat position/size; */
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
 
 body * {
   font-family: "Inter", sans-serif;
-  /*color: #ffffff;*/
   color: var(--text-color);
 }
 
 #container {
   width: 100%;
   max-width: 558px;
-  /*height: 712px;
-  border: 1px solid red;
-  margin-right: auto;
-  margin-left: auto; */
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -59,8 +48,7 @@ body * {
 }
 
 #profile img {
-  /*display: block; para conseguir alinhar um elemento tipo inline*/
-  width: 112px;
+   width: 112px;
 }
 
 #profile p {
@@ -104,6 +92,7 @@ body * {
 #switch span {
   display: block;
   width: 64px;
+  
   height: 24px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
@@ -113,7 +102,6 @@ body * {
 }
 
 /*LINKS*/
-
 ul {
   list-style: none;
 
@@ -131,8 +119,6 @@ ul li a {
 
   padding: 16px 24px;
 
-  /*background: rgba(255, 255, 255, 0.1);
-  background: rgba(197, 26, 123, 0.1);*/
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
