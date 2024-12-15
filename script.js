@@ -10,7 +10,7 @@ function toggleMode() {
     // se tiver light mode, adicionar a imagem light
     img.setAttribute("src", "./assets/Avatar-Mari-Light.png")
   } else {
-    // set tiver sem light mode, manter a imagem normal
+    // set tiver sem light mode, manter a imagem normal.
     img.setAttribute("src", "./assets/Avatar-Mari.png")
   }
 }
